@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root{
+/* ### Primary */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+/* ### Neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    font-family: "Bai Jamjuree", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+}
+
+header{
+    background: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.copy-logo{
+    padding-top: 121px;
+    margin-bottom: 73px;
+}
+
+h1, h2{
+    font-size: 30.5px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    width: 299px;
+    margin: 0 auto 25px;
+}
+
+p{
+    line-height: 1.5;
+    color: hsl(201, 11%, 66%); 
+}
+
+.first-section p{
+    width: 308px; 
+    margin: 0 auto 52px;
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 167px;
+}
+
+.buttons button{
+    padding:21px 75px;    
+    border-radius: 2rem;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 313px;
+    margin: 0 auto;
+}
+
+.btn1{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 4px 4px 10px hsl(171, 66%, 44%, 0.4);
+}
+
+.btn2{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 4px 4px 10px hsl(233, 100%, 69%, 0.4);
+} 
+
+/* second-section */
+.second-section h2{
+    margin-bottom: 23px;
+}
+
+.second-section .clipboard{
+    width: 295px;
+    margin: 0 auto;
+
+}
+
+.second-section img{
+    width: 314px;
+    height: 239px;
+    margin-bottom: 62px;
+    margin-top: 71px;
+}
+
+ h3{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.Quick p{
+    width: 296px;
+    margin: 0 auto 61px;
+}
+
+.third-section h2{
+    margin-top: 171px;
+    margin-bottom: 22px;
+
+}
+
+.third-section p{
+    width: 307px;
+    margin: 0 auto 69px;
+}
+
+.third-section img{
+    width: 312px;
+    height: 182px;
+    margin-bottom: 139px;
+}
+
+.super-charge p{
+    width: 248px;
+    margin: 0 auto 92px;
+}
+
+.threeIcons p{
+    width: 309px;
+    margin: 0 auto 61px;
+
+}
+
+.fiveImages{
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+
+
+.threeIcons img{
+    margin-bottom: 45px;
+    
+}
+
+.fiveImages{
+    margin:150px auto 177px ;
+}
+
+.sixth-section h2{
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.sixth-section p{
+    margin:0 auto 47px;
+    width: 306px;
+}
+
+/* footer section.................................... */
+
+footer{
+    padding: 52px;
+    background: hsl(201, 11%, 66%, .2);
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+.copy img{
+    width: 57px;
+    margin-bottom: 14px;
+}
+
+.FAQs li{
+    margin-bottom: 35px;
+}
+
+.social-media ul {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.FAQs a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.social-media ul li a:hover img{
+    color: hsl(171, 66%, 44%);
+}
+
+@media(min-width:961px) {
+    header{
+        background: url(images/bg-header-desktop.png);
+    }
+
+    h1, h2{
+        width: 688px;
+        font-size: 34px;
+    }
+
+    .first-section p{
+        width: 550px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        width: 471px;
+        margin: 0 auto 160px;
+    }
+
+    .buttons button{
+        padding:21px 37px;    
+    }
+
+    .second-section .clipboard{
+        width: 598px;
+    }
+
+    .second-section img{
+        margin-bottom: 0px;
+    }
+
+
+    .flex-items{
+        display: flex;
+        margin-top: 84px;
+        margin-bottom: 160px;
+        gap: 109px;
+    }
+
+    .flex-items img{
+        width: 719px;
+        height: 575px;
+        
+    }
+
+    .Quick{
+        align-self: center;
+        text-align: start;
+       
+    }
+
+    .Quick h3{
+        font-size: 23px;
+    }
+
+    .Quick p{
+        width: 336px;
+        margin: 0 auto 65px;
+        font-size: 16px;
+    }
+
+    .second-section{
+        margin-bottom: 0px;
+    }
+
+    .third-section img{
+        width: 810px;
+        height: 473px;
+        margin-bottom: 97px;
+    }
+
+    .third-section p{
+        width: 600px;
+    }
+
+    .super-charge p{
+        width: 386px;
+    }
+
+    .threeIcons{
+        display: flex;
+        
+        justify-content: space-around;
+        width: 1110px;
+        margin: 0 auto;
+        
+    }
+
+    .blacklists img{
+        width: 34px;
+    }
+
+
+    .threeIcons p{
+        width: 350px;
+        align-items: center;
+    }
+
+    .fiveImages{
+      flex-direction: row; 
+      justify-content: space-around;    
+      width: 1113px;
+      margin: 140px auto 160px;
+    }
+
+    .sixth-section h2{
+        width: 485px;
+    }
+    
+    .sixth-section p{
+        width: 600px;
+    }
+
+    footer{
+        padding: 45px;
+        background: hsl(201, 11%, 66%, .2);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+    
+    .social-media img{
+        width: 27px;
+    }
+
+    .FAQs{
+        width: 485px;
+        height: 56px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        text-align: start;
+        gap: 95px;
+        line-height: 2;
+        left: 67px;
+    }
+
+    .FAQs li{
+        margin-bottom: 0;
+    }
+
+    .Install-Guide{
+        align-self: start;
+    }
+
+    
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
